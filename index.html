@@ -9,6 +9,25 @@
     <script src='main.js'></script>
 </head>
 <body>
-    hello
+    <header>
+        <h1>Veikals</h1>
+    </header>
+    <main>
+        <form id="login_form" class="form_class" action="login/login-access.php" method="post">
+            <div class="form_div">
+                <label>Login:</label>
+                <input class="field_class" name="login_txt" type="text" placeholder="Ievadiet savu lietotājvārdu" autofocus>
+                <label>Password:</label>
+                <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Ievadiet savu paroli">
+                <button class="submit_class" type="submit" form="login_form" onclick="return validarLogin()">Enter</button>
+            </div>
+            <div class="info_div">
+                <p>Neesi reģistrējies? <a href="register/reg-form.php">Reģistrējies šeit!</a></p>
+            </div>
+        </form>
+    </main>
+    <footer>
+        </a>
+    </footer>
 </body>
 </html>
