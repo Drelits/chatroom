@@ -97,21 +97,21 @@ footer > p > a {
     color: white;
     font-weight: bold;
 }
-.scene {
-    width: 200px;
-    height: 200px;
-    perspective: 600px;
+div.scene {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px ;
+    margin: 20px;
   }
-  
-  .cube {
-    width: 100%;
-    height: 100%;
-    position: relative;
-    transform-style: preserve-3d;
+  div.scene1 {
+    width: 300px;
+    border: 15px solid rgb(95, 75, 167);
+    padding: 50px;
+    margin: 20px;
   }
-  
-  .cube__face {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+  div.scene3 {
+    width: 300px;
+    border: 15px solid rgb(46, 182, 28);
+    padding: 50px;
+    margin: 20px;
   }
